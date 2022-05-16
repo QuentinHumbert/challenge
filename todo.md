@@ -9,8 +9,10 @@
 ## to do
 
 Intégrer la version tablette
-définir les breakpoints.
+définir les breakpoints. => comment
 utiliser les média queries (min-width: 768px)
+768px
+1024px
 
 ### analyser la maquette.
 

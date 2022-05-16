@@ -56,7 +56,7 @@ header nav i {
 header nav a {
   color: var(--texte);
 }
-/* le mainn*/
+/* le main*/
 main {
   width: 90%;
   margin: auto;
@@ -108,6 +108,9 @@ main nav button:nth-child(2) {
   width: 100%;
   object-fit: cover;
 }
+.grid img:nth-child(n+10){
+  display: none;
+}
 footer {
   text-align: center;
   margin-top: 4em;
@@ -122,4 +125,33 @@ footer p {
 }
 footer p:last-child {
   font-size: 0.625em;
+}
+/* Format tablette */
+@media screen and (min-width:768px){
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+main{
+  width: 80%;
+  margin: auto;
+}
+main h2 {
+  font-size: 3em;
+}
+main nav {
+  justify-content: center;
+  gap: 1em;
+}
+.grid {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid img:nth-child(n+10){
+  display: block;
+}
+main p {
+  width: 80%;
+}
 }
