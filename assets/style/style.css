@@ -115,7 +115,7 @@ footer {
   text-align: center;
   margin-top: 4em;
   color: var(--secondary);
-  font-weight: thin;
+  font-weight:100;
   opacity: 0.5;
 }
 /* le footer. */
